@@ -1,0 +1,15 @@
+public class Soal1 {
+
+    public static void main(String[] args) {
+
+        byte angkal = 125; // Mendeklarasikan variabel byte dengan nilai 125
+        byte angka2 = 6;   // Mendeklarasikan variabel byte dengan nilai 6
+
+        // Menghitung hasil penjumlahan antara angkal dan angka2
+        // Hasil penjumlahan di-cast ke tipe byte
+        byte hasil = (byte) (angkal + angka2);
+
+        System.out.println("Hasil 1 " + hasil); // Mencetak hasil penjumlahan
+    }
+
+}
